@@ -1,4 +1,4 @@
-# Med-Pretraining: A Comparative Study of ImageNet and RadImageNet for Endoscopic Segmentation
+# Is Medical Pretraining Enough When the Modality Is Different? A Study on Endoscopic Polyp Segmentation
 
 This project presents a comparative analysis of **ImageNet** and **RadImageNet** as pretraining sources for **endoscopic image segmentation**, using both **ResNet-50** (CNN) and **ViT-Small** (Vision Transformer) encoder architectures. We evaluate the impact of **domain** and **modality alignment** in transfer learning across three publicly available polyp segmentation datasets: **CVC-ClinicDB**, **Kvasir-SEG**, and **SUN-SEG**.
 
