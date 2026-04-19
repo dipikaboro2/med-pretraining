@@ -29,6 +29,8 @@ We evaluate the impact of **domain** and **modality alignment** in transfer lear
 
 ## 📄 Paper
 
+[Download the poster (PDF)](poster/poster.pdf)
+
 This work was presented as a **poster at MIDL 2025 (Short Paper Track)**.
 
 - 📄 **Paper (OpenReview):** [Read PDF](https://openreview.net/pdf?id=mf46VVoZoG)
@@ -38,12 +40,8 @@ This work was presented as a **poster at MIDL 2025 (Short Paper Track)**.
 ## 🖼️ Poster
 
 <p align="center">
-  <a href="poster/poster.pdf">
     <img src="poster/poster_preview.png" width="600"/>
-  </a>
 </p>
-
-<sub>Click the image to view the full poster (PDF).</sub>
 
 ---
 
