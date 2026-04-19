@@ -1,44 +1,68 @@
-# Is Medical Pretraining Enough When the Modality Is Different? A Study on Endoscopic Polyp Segmentation
+# Is Medical Pretraining Enough When the Modality Is Different?
+### A Study on Endoscopic Polyp Segmentation
 
-This project presents a comparative analysis of **ImageNet** and **RadImageNet** as pretraining sources for **endoscopic image segmentation**, using both **ResNet-50** (CNN) and **ViT-Small** (Vision Transformer) encoder architectures. These backbone encoders are integrated into a DeepLabV3+ decoder to generate the output segmentation mask. We evaluate the impact of **domain** and **modality alignment** in transfer learning across three publicly available polyp segmentation datasets: **CVC-ClinicDB**, **Kvasir-SEG**, and **SUN-SEG**.
+**Dipika Boro, Yu Cao, Benyuan Liu, Qilei Chen**  
+**Presented at MIDL 2025 (Short Paper Track)**
 
 ---
 
 ## 🔍 Overview
 
-![Framework](images/Framework-3.png)
-<sub>**Figure 1:** Architectural overview of ResNet-50 and ViT-Small encoders integrated into a DeepLabV3+ decoder.</sub>
+This project presents a comparative analysis of **ImageNet** vs **RadImageNet** or **Histopathology** images as pretraining sources for **endoscopic image segmentation**, using both **ResNet-50** (CNN) and **ViT-Small** (Vision Transformer) encoder architectures. These backbone encoders are integrated into a **DeepLabV3+** decoder to generate the output segmentation mask.
+
+We evaluate the impact of **domain** and **modality alignment** in transfer learning across three publicly available polyp segmentation datasets:
+
+- **CVC-ClinicDB**
+- **Kvasir-SEG**
+- **SUN-SEG**
 
 ---
 
-## 📊 Results Summary
+## ✨ Highlights
 
-![Results Table](images/Table.png)
-<sub>**Figure 2:** Quantitative performance (Dice and IoU) across datasets and pretraining sources.</sub>
-
----
-
-## 🎯 Sample Predictions
-
-![Sample Output](images/output-3.png)
-<sub>**Figure 3:** Predicted masks from ImageNet (IN) and RadImageNet (RIN) pretrained models.</sub>
+- First systematic comparison of **ImageNet vs RadImageNet or Histopathology images** for **endoscopic polyp segmentation**
+- Evaluation across **three benchmark datasets**
+- Analysis of **domain vs modality alignment** in transfer learning
+- Comparison of **CNN (ResNet-50)** and **Transformer (ViT-Small)** backbones
 
 ---
 
-## 📁 Code Availability
+## 📄 Paper
 
-The code for model training, evaluation, and visualization will be released **after peer review**.
+This work was presented as a **poster at MIDL 2025 (Short Paper Track)**.
+
+- 📄 **Paper (OpenReview):** [Read PDF](https://openreview.net/pdf?id=mf46VVoZoG)
+
+---
+
+## 🖼️ Poster
+
+<p align="center">
+  <a href="poster/poster.pdf">
+    <img src="poster/poster_preview.png" width="600"/>
+  </a>
+</p>
+
+<sub>Click the image to view the full poster (PDF).</sub>
+
+---
+
+## 📌 Status
+
+- ✅ Presented at **MIDL 2025 (Poster)**
+- 📄 Paper available on **OpenReview**
 
 ---
 
 ## 📜 Citation
 
-If you find this work useful, please consider citing our paper (coming soon).
+If you find this work useful, please cite:
 
----
-
-## 📬 Contact
-
-For questions or collaborations, feel free to open an issue or reach out.
-
----
+```bibtex
+@inproceedings{boro2025medicalpretraining,
+  title={Is Medical Pretraining Enough When the Modality Is Different? A Study on Endoscopic Polyp Segmentation},
+  author={Boro, Dipika and Cao, Yu and Liu, Benyuan and Chen, Qilei},
+  booktitle={Medical Imaging with Deep Learning (MIDL)},
+  year={2025},
+  note={Short paper, presented as poster. Available on OpenReview}
+}
