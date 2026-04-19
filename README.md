@@ -40,7 +40,7 @@ This work was presented as a **poster at MIDL 2025 (Short Paper Track)**.
 ## Poster
 
 <p align="center">
-    <img src="poster/poster_preview.png" width="900"/>
+    <img src="poster/poster_preview.jpg" width="900"/>
 </p>
 
 ---
